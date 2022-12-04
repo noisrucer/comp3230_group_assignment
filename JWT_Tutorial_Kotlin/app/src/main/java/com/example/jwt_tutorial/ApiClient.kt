@@ -6,7 +6,7 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-const val BASE_URL = "https://67cc-202-189-104-232.ap.ngrok.io"
+const val BASE_URL = "http://localhost:8000"
 private val logger = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
 
 /**
