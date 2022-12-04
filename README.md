@@ -44,6 +44,6 @@ pip install -r requirements.txt
 uvicorn backend.main:app --reload
 ```
 
-7. Run the frontend and test!
+7. Register a new user by sending a POST request to `/auth/register`. You can use the API using Swagger API. Enter `http://localhost:8000/docs#/auth/register_auth_register_post` in your browser. Then, click **Try it out**. Finally, fill out the email and password. When you log-in later, use this information.
 
-8. Register a new user by sending a POST request to `/auth/register`. You can use the API using Swagger API. Enter `http://localhost:8000/docs#/auth/register_auth_register_post` in your browser. Then, click **Try it out**. Finally, fill out the email and password. When you log-in later, use this information.
+8. Run the frontend and test!
