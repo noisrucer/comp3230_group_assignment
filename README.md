@@ -9,11 +9,9 @@
 pip install "fastapi[all]"
 ```
 
-4. Create MySQL Database named `3330group`.
+3. Create MySQL Database named `3330group`.
 
-5. Register a new user by sending a POST request to `/auth/register`. You can use the API using Swagger API. Enter `http://localhost:8000/docs#/auth/register_auth_register_post` in your browser. Then, click _Try it out_. Finally, fill out the email and password. When you log-in later, use this information.
-
-6. Create `.env` file in the project's root directory, and fill up the information. Reference `.env_form.txt` for details.
+4. Create `.env` file in the project's root directory, and fill up the information. Reference `.env_form.txt` for details.
 
 ```
 .env          <--- Create this file
@@ -34,16 +32,18 @@ ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=1
 ```
 
-4. Install required Python packages on root directory.
+5. Install required Python packages on root directory.
 
 ```
 pip install -r requirements.txt
 ```
 
-5. Run the server
+6. Run the server
 
 ```
 uvicorn backend.main:app --reload
 ```
 
-6. Run the frontend and test!
+7. Run the frontend and test!
+
+8. Register a new user by sending a POST request to `/auth/register`. You can use the API using Swagger API. Enter `http://localhost:8000/docs#/auth/register_auth_register_post` in your browser. Then, click **Try it out**. Finally, fill out the email and password. When you log-in later, use this information.
